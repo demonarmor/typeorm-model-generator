@@ -64,7 +64,11 @@ Options:
                                                       [boolean] [default: false]
 ```
 ### Examples
-
+* Creating model from local Mysql database
+   * Global module
+    ```
+    typeorm-model-generator -h localhost -d ssm -u root -x  -e mysql -o --noConfig true  --ce camel --cf camel --cp camel   .
+    ```
 * Creating model from local MSSQL database
    * Global module
       ```
